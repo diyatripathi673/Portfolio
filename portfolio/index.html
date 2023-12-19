@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diya portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/all.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">
+                <span class="purple">D</span>IYA'S PORTFOLIO
+            </div>
+            <div class="right">
+                <ul id="sidemenu">
+                    <li><a href="#home"><i class="fa-solid fa-house"></i>HOME</a></li>
+                    <li><a href="#about"><i class="fa-solid fa-address-card"></i>ABOUT</a></li>
+                    <li><a href="#services"><i class="fa-brands fa-servicestack"></i>SERVICES</a></li>
+                    <li><a href="#mywork"><i class="fa-solid fa-user"></i>MY WORK</a></li>
+
+                    <li><a href="#contact"><i class="fa-solid fa-square-phone"></i>CONTACT ME</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+
+            </div>
+        </nav>
+        <div class="burger"><i class="fas fa-bars" onclick="openmenu()"></i></div>
+    </header>
+    <main>
+        <section class="firstsec">
+            <div class="leftsec">
+                Hey, I'm <span class="purple">DIYA </span>
+                <div>A Computer science Student passionate about
+                    <span class="purple">programming</span> and <span class="purple">design</span>
+                </div>
+            </div>
+            <div class="rightsec">
+                <img src="PngItem_1127587.png">
+            </div>
+        </section>
+    </main>
+
+    <div id="about">
+        <div class="cont">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="download (2).jpg" alt="myimg" width="95%" height="100%">
+                </div>
+                <div class="about-col-1">
+                    <h1 class="subtitle">About me</h1>
+                    <p>Introducing My self as a passionate and dedicated <span class="purple"> UI Designer</span> with a
+                        focus on creating engaging and USER-FRIENDLY design
+                        Intrested in a role of a <span class="purple">WEB DEVLOPER </span> when can i contribute my
+                        skills and Knowledge
+                        I can contribute to the Devlopment of WEB PAGES using the latest technologies,tools,and
+                        frameworks. with a strong foundation in programming languages
+                    </p>
+
+                    <div class="tab-title">
+                        <p class="tab-links activ-links" onclick="opentab('skills')">SKILLS</p>
+                        <p class="tab-links" onclick="opentab('projects')">PROJECTS</p>
+                        <p class="tab-links" onclick="opentab('education')">EDUCATION</p>
+                    </div>
+                    <!-- skills -->
+                    <div class="tab-contents activ-tab" id="skills">
+                        <ul>
+                            <li><span>UI designer</span><br>Designing Web/App Interfaces </li>
+                            <li><span>Web Devlopment </span><br>Web App Devlopment</li>
+                            <li><span> Programming languages</span><br>Html Css Javascript Python</li>
+
+
+                        </ul>
+                    </div>
+                    <!-- ---projects--- -->
+                    <div class="tab-contents" id="projects">
+                        <ul>
+                            <li><span>1--Educational Web-Page</span><br>In this Web-Page I include Education related
+                                content like Our Services, About their Education</li>
+                            <li><span>2--Amazon Clone </span><br>In this clone I'll be try to design same amazon
+                                shooping webpage and I tried my best and I made it.
+                                In this Clone I Include Navbar, Shooping section ,Footer section,ETC</li>
+                            <li><span> 3-- Notes app</span><br>
+                                In this notes app we can create notes and edit</li>
+                        </ul>
+                    </div>
+
+                    <!-- education -->
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>'O' Level in (IT Software) </span><br><b>NIELIT</b><br> (Electronic Service
+                                Center) <br>(2022-2023)</li>
+                            <li><span>BA </span><br>Kumaun University<br>(2021-2024)</li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- SERVICES -->
+    <div id="services">
+        <div class="container">
+            <h1 class="subtitle">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <h2>UI Design</h2>
+                    <p>Devloped user interface prototypes to evaluate user experience and to refine design</p>
+
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <h2>Responsive web design</h2>
+                    <p> I always try that my website looks and functions
+                        well across various devices, like Smartphones,
+                        Tablets , Desktop, Computers .</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <h2> SUPPORT</h2>
+                    <p>I Will always be in SUPPORT for whom i created Website
+                        Associtate with us 24*7 to get help at whatever point
+                        they need
+                    </p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- portfolio -->
+    <div id="mywork">
+        <div class="container">
+            <h1 class="subtitle">My Work</h1>
+            <div class="worklist">
+                <div class="work">
+                    <img src="cap1st.PNG" alt="" width="100%" height="100%">
+                    <div class="layer">
+                        <h3>Educational Webpage</h3>
+                        <p>I include education related content like our services , about their education, etc.
+                        </p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Capture2.PNG" alt="" width="100%" height="100%">
+                    <div class="layer">
+                        <h3>Age Calculator</h3>
+                        <p>You can calculate your age using this calculator.</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Capture3.PNG" alt="" width="100%" height="100%">
+                    <div class="layer">
+                        <h3>University Webpage</h3>
+                        <p>i'll try to make good looking University webpage .</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <a href="#" class="btn seemore btn3">See More</a>
+        </div>
+
+    </div>
+
+    <!-- contact -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="purple">Contact Me</h1>
+                    <p><i class="fas fa-paper-plane"></i>tripathidiya673@gmail.com</p>
+                    <p><i class="fas fa-phone-square"></i>0123456789</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter-square"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                    <a href="Diya-Tripathi-FlowCV-Resume-20231214.pdf" class="btn btn2 btn3"><i
+                            class="fa-solid fa-download"></i>Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="name" placeholder="Enter Your Full Name" required>
+                        <input type="email" name="email" placeholder="Enter Your email Here" required>
+                        <textarea name="message" rows="6" placeholder="Your Message"></textarea>
+                        <br><button type="submit" class="btn btn2  btn3" onclick="submitform()">Submit</button>
+                        <a href="#" class="to-top">
+                            <i class="fas fa-chevron-up fa-3x" style="position: absolute;margin-left: 810px;"></i>
+                        </a>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="copy-right">
+        <p> DIYA.<i class="fa-solid fa-heart"></i> It's my PORTFOLIO </p>
+    </div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("activ-links")
+            }
+            for (tabcontant of tabcontents) {
+                tabcontant.classList.remove("activ-tab")
+            }
+            event.currentTarget.classList.add("activ-links");
+            document.getElementById(tabname).classList.add("activ-tab");
+        }
+
+    </script>
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu() {
+            sidemenu.style.right = "0"
+        }
+        function closemenu() {
+            sidemenu.style.right = "-200px"
+        }
+    </script>
+    <script>
+        function submitform() {
+            debugger;
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbzY8GVuXwcH7b3ShrDMZFWxZ8q3zDNmlHxQaqOv2RYnK4SAtc1X4eYY9IMJpRTR4VNy/exec'
+            const form = document.forms['submit-to-google-sheet']
+            const msg = document.getElementById("msg");
+
+            form.addEventListener('submit', e => {
+                e.preventDefault();
+                fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                    .then(response => {
+                        msg.innerHTML = "Message sent successfully";
+                        setTimeout(function () {
+                            msg.innerHTML = "";
+                        }, 5000);
+                        form.reset();
+                    })
+                    .catch(error => console.error('Error!', error.message));
+            });
+
+
+        }
+
+    </script>
+    <script>
+        const top = document.addEventListener("scroll", () => {
+            debugger;
+            if (window.pageYOffset > 100) {
+                debugger;
+                top.classList.add('active');
+            }
+            else {
+                top.classList.remove('active');
+            }
+        })
+    </script>
+
+</body>
+
+</html>
