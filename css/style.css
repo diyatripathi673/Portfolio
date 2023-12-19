@@ -10,7 +10,6 @@
  body {
      background-color: #080808;
      color: white;
-     font-family: lora;
  }
 
  nav {
@@ -423,7 +422,7 @@
      scroll-behavior: smooth;
  }
 
- @media only screen and (max-width:576px) {
+ @media only screen and (max-width:600px) {
 
 
      nav .fas {
